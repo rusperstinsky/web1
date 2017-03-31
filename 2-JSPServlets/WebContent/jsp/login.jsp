@@ -20,7 +20,18 @@
 		<table>
 			<tr>
 				<td>Nombre de Usuario</td>
-				<td><input type="text" name="usuario" size="35" /></td>
+				<%
+					Cookie[] cookies = request.getCookies();
+					String valor ="";
+					for(Cookie c : cookies){
+						if(c.getName().equals("usuario")){
+							valor = c.getValue();
+						} else {
+							out.println("No encontrado");
+						}
+					}
+				%>
+				<td><input type="text" name="usuario" size="35" value="<%=valor%>" /></td>
 			</tr>
 			<tr>
 				<td>Contraseña</td>
@@ -28,8 +39,7 @@
 			</tr>
 			<tr>
 				<td></td>
-				<td><input type="checkbox" checked="checked" />Recordar mis
-					datos</td>
+				<td><input name="ckbox" type="checkbox" checked="checked" />Recordar mis datos</td>
 			</tr>
 			<tr>
 				<td></td>
