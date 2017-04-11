@@ -1,0 +1,17 @@
+127.0.0.1 - - [07/Apr/2017:12:00:11 -0500] "GET / HTTP/1.1" 404 1004
+127.0.0.1 - - [07/Apr/2017:12:00:15 -0500] "GET /2-JSPServlets/ HTTP/1.1" 500 2891
+127.0.0.1 - - [07/Apr/2017:12:00:29 -0500] "GET /2-JSPServlets/ HTTP/1.1" 200 947
+127.0.0.1 - - [07/Apr/2017:12:03:29 -0500] "GET / HTTP/1.1" 404 1004
+127.0.0.1 - - [07/Apr/2017:12:03:32 -0500] "GET /2-JSPServlets/ HTTP/1.1" 200 949
+127.0.0.1 - - [07/Apr/2017:12:04:13 -0500] "GET /2-JSPServlets/ HTTP/1.1" 200 949
+127.0.0.1 - - [07/Apr/2017:12:04:33 -0500] "POST /2-JSPServlets/?accion=iniciarSesion HTTP/1.1" 200 1041
+127.0.0.1 - - [07/Apr/2017:12:05:00 -0500] "POST /2-JSPServlets/?accion=iniciarSesion HTTP/1.1" 200 1041
+127.0.0.1 - - [07/Apr/2017:12:07:16 -0500] "GET /2-JSPServlets/ HTTP/1.1" 200 990
+127.0.0.1 - - [07/Apr/2017:12:07:53 -0500] "GET /2-JSPServlets/ HTTP/1.1" 200 990
+127.0.0.1 - - [07/Apr/2017:12:08:26 -0500] "GET / HTTP/1.1" 404 1004
+127.0.0.1 - - [07/Apr/2017:12:08:27 -0500] "GET /2-JSPServlets/ HTTP/1.1" 200 990
+127.0.0.1 - - [07/Apr/2017:12:11:20 -0500] "GET /2-JSPServlets/ HTTP/1.1" 200 990
+127.0.0.1 - - [07/Apr/2017:12:11:24 -0500] "POST /2-JSPServlets/?accion=iniciarSesion HTTP/1.1" 200 1076
+127.0.0.1 - - [07/Apr/2017:12:12:15 -0500] "GET / HTTP/1.1" 404 1004
+127.0.0.1 - - [07/Apr/2017:12:12:18 -0500] "GET /2-JSPServlets/ HTTP/1.1" 200 989
+127.0.0.1 - - [07/Apr/2017:12:12:27 -0500] "POST /2-JSPServlets/?accion=iniciarSesion HTTP/1.1" 200 1032

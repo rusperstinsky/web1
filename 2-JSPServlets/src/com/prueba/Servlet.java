@@ -9,7 +9,6 @@ import javax.naming.NamingException;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
-import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -108,17 +107,6 @@ public class Servlet extends HttpServlet {
 				String contrasena = request.getParameter("contrasena");
 
 				Cuenta cuenta = new Cuenta(con);
-				
-				try{
-					if(request.getParameter("ckbox").equals("on")){
-						Cookie cookie = new Cookie("usuario", usuario);
-						cookie.setMaxAge(60*60*24);
-						response.addCookie(cookie);
-						log.info("cookie creada");
-					}
-				} catch (NullPointerException e) {
-					log.error("ckbox vacio " + e.getMessage());
-				}
 				
 				if(cuenta.login(usuario, contrasena)){
 					log.info("Ingresado correctamente como: " + usuario);

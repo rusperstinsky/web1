@@ -13,9 +13,13 @@
 			<td><a href="?accion=logout">Cerrar Sesión</a></td>
 		</tr>
 		<tr>
-			<td>Consultar administradores</td>
+			<td><a href="?accion=consultarAdministradores">Consultar administradores</a></td>
+		</tr>
+		<tr>
+			<td><a href="?accion=registroPregunta">Registrar Pregunta</a></td>
 		</tr>
 	</table>
+	
 	<p>	
 	Contenido principal
 	</p>

@@ -12,3 +12,8 @@
 127.0.0.1 - - [31/Mar/2017:16:27:14 -0600] "GET / HTTP/1.1" 404 1004
 127.0.0.1 - - [31/Mar/2017:16:27:18 -0600] "GET /2-JSPServlets/ HTTP/1.1" 200 941
 127.0.0.1 - - [31/Mar/2017:16:27:28 -0600] "POST /2-JSPServlets/?accion=iniciarSesion HTTP/1.1" 200 472
+127.0.0.1 - - [31/Mar/2017:16:28:16 -0600] "GET / HTTP/1.1" 404 1004
+127.0.0.1 - - [31/Mar/2017:16:28:17 -0600] "GET /2-JSPServlets/ HTTP/1.1" 200 947
+127.0.0.1 - - [31/Mar/2017:16:28:24 -0600] "POST /2-JSPServlets/?accion=iniciarSesion HTTP/1.1" 200 472
+127.0.0.1 - - [31/Mar/2017:16:28:33 -0600] "GET /2-JSPServlets/?accion=logout HTTP/1.1" 200 947
+127.0.0.1 - - [31/Mar/2017:16:29:32 -0600] "POST /2-JSPServlets/?accion=iniciarSesion HTTP/1.1" 200 992
